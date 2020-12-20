@@ -10,7 +10,7 @@ public class OrbitalPlacement : MonoBehaviour
     [SerializeField] Transform OrbitalSpawnParent;
 
     [SerializeField] SongViewCard songViewCardPrefab;
-    [SerializeField] List<SongData> songDatas;
+    [SerializeField] List<SongData> songDatas = new List<SongData>();
     List<SongViewCard> songViewCards = new List<SongViewCard>();
 
     List<Vector3> positions = new List<Vector3>();

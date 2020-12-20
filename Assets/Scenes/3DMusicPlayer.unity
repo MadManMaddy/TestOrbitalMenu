@@ -5194,6 +5194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1790368675}
   - component: {fileID: 1790368676}
+  - component: {fileID: 1790368677}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -5262,6 +5263,25 @@ MonoBehaviour:
     coverPic: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   - name: song1
     coverPic: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!114 &1790368677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790368674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab61e614831c6d498bde6c3eef279e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test:
+  - {fileID: 8300000, guid: 8cb7606b0b01e744fb27e0d428721e76, type: 3}
+  - {fileID: 8300000, guid: b4c73f754bafaf24f94cf55e8f4f7ea2, type: 3}
+  - {fileID: 8300000, guid: a61bde2186929464c9c9b7200bb9b924, type: 3}
+  - {fileID: 8300000, guid: 3ddfafc6b6ae43c4b8ee02376ea4ff84, type: 3}
+  - {fileID: 8300000, guid: 0f97c057508951445b4727dce150126d, type: 3}
+  soundSourceJsons: {fileID: 11400000, guid: 33a5151ab53fe964ca8fe34f36a3b48a, type: 2}
 --- !u!1 &1813540041
 GameObject:
   m_ObjectHideFlags: 0
